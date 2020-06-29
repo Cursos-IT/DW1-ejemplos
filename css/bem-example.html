@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .articulo {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+        }
+        .articulo__h2 {
+            text-align: center;
+        }
+        .articulo__imagen {
+            height: 50px;
+            width: 50px;
+            margin: .3rem;
+            border: 2px solid black;
+        }
+        .articulo__parrafo {
+            font-size: 12px;
+        }
+        .articulo--colorbackground {
+            background-color: pink;
+        }
+        .articulo__imagen--bordeblanco {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+
+
+    <article class="articulo">
+        <h2 class="articulo__h2">Título</h2>
+        <figure class="articulo__imagen">
+            <img src="ruta">
+        </figure>
+        <p class="articulo__parrafo">Lorem ipsum dolor sit amet.</p>
+    </article>
+
+    <article class="articulo articulo--colorbackground">
+        <h2 class="articulo__h2">Título</h2>
+        <figure class="articulo__imagen">
+            <img src="ruta">
+        </figure>
+        <p class="articulo__parrafo">Lorem ipsum dolor sit amet.</p>
+    </article>
+
+    <article class="articulo">
+        <h2 class="articulo__h2">Título</h2>
+        <figure class="articulo__imagen articulo__imagen--bordeblanco">
+            <img src="ruta">
+        </figure>
+        <p class="articulo__parrafo">Lorem ipsum dolor sit amet.</p>
+    </article>
+    
+</body>
+</html>
