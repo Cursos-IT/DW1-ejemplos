@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-model</title>
+    <style>
+        .box1 {
+            background-color: plum;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 10px blue solid;
+            display: inline-block;
+        }
+
+        .box2 {
+            background-color: plum;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            /* box-sizing: content-box; */
+            border: 10px blue solid;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">box-sizing: border-box</div>
+    <div class="box2">box-sizing: content-box</div>
+    
+</body>
+</html>
